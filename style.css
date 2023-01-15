@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    background-color: #c31432;  /* fallback for old browsers */
+    background : -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background : linear-gradient(to right, #ff460e, #e4082d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: 'Tahoma', sans-serif;
+ 
+ 
+} 
+#main_header{
+    text-align: center;    
+    font-size:50pt;
+ 
+}
+.main_div{
+    background: transparent;
+    height: 70vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.log_div{
+    background: transparent;
+    height:30vh;
+    width: 40vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25vh;
+     
+    
+}
+.main_btn{
+    background: transparent;
+    white-space: nowrap;
+     border-color: brown;
+     border-radius: 10px;
+    
+     font-size: 5vw;
+     margin: 8vw;
+}
+.main_btn:hover{
+    background-color: crimson;
+}
+
+.log_input{
+    background: transparent;
+    border-radius: 10px;
+    width: 40vw;
+    font-size: 5vh;
+    margin-left: 3vw;
+}
+.spans{
+   background: transparent;
+}
+.side_divs{
+    background: transparent;
+}
+/*
+.signup_login_btn:hover{
+    background-color: rgb(30, 38, 21)  
+}*/
